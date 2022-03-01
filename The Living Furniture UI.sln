@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Living Furniture UI", "The Living Furniture UI\The Living Furniture UI.csproj", "{F231E580-A3D6-4EB9-B975-B511B9F03634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F231E580-A3D6-4EB9-B975-B511B9F03634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F231E580-A3D6-4EB9-B975-B511B9F03634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F231E580-A3D6-4EB9-B975-B511B9F03634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F231E580-A3D6-4EB9-B975-B511B9F03634}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AA8E43A-D5B8-4902-ACAA-A0E2681EFB31}
+	EndGlobalSection
+EndGlobal
