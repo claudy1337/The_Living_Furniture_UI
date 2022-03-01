@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using The_Living_Furniture_UI.Pages;
 
+
 namespace The_Living_Furniture_UI
 {
     /// <summary>
@@ -24,7 +25,7 @@ namespace The_Living_Furniture_UI
         public MainWindow()
         {
             InitializeComponent();
-           
+           PagesNavigation.Navigate(new System.Uri("Pages/auth.xaml", UriKind.RelativeOrAbsolute));
         }
 
         private void btnMinimize_Click(object sender, RoutedEventArgs e)

@@ -79,6 +79,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\userPages\registration.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Styles\MainStyles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -91,6 +95,9 @@
   <ItemGroup>
     <Compile Include="Pages\auth.xaml.cs">
       <DependentUpon>auth.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\userPages\registration.xaml.cs">
+      <DependentUpon>registration.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -120,7 +127,6 @@
   <ItemGroup>
     <Folder Include="Pages\adminPages\" />
     <Folder Include="Pages\othersPage\" />
-    <Folder Include="Pages\userPages\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

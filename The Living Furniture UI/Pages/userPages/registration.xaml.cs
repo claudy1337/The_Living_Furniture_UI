@@ -12,23 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using The_Living_Furniture_UI.Pages.userPages;
 
-namespace The_Living_Furniture_UI.Pages
+namespace The_Living_Furniture_UI.Pages.userPages
 {
     /// <summary>
-    /// Логика взаимодействия для auth.xaml
+    /// Логика взаимодействия для registration.xaml
     /// </summary>
-    public partial class auth : Page
+    public partial class registration : Page
     {
-        public auth()
+        public registration()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new registration());
         }
     }
 }
