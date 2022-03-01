@@ -116,6 +116,14 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="Assets\fonts\Poppins-Black.ttf" />
+    <Resource Include="Assets\fonts\Poppins-Bold.ttf" />
+    <Resource Include="Assets\fonts\Poppins-ExtraBold.ttf" />
+    <Resource Include="Assets\fonts\Poppins-ExtraLight.ttf" />
+    <Resource Include="Assets\fonts\Poppins-Light.ttf" />
+    <Resource Include="Assets\fonts\Poppins-Medium.ttf" />
+    <Resource Include="Assets\fonts\Poppins-Regular.ttf" />
+    <Resource Include="Assets\fonts\Poppins-SemiBold.ttf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -127,6 +135,9 @@
   <ItemGroup>
     <Folder Include="Pages\adminPages\" />
     <Folder Include="Pages\othersPage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\signIn.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

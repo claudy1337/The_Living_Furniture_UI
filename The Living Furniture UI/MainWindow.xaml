@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:The_Living_Furniture_UI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="550" Width="900"
+        Title="MainWindow" Height="550" Width="850"
         WindowStartupLocation="CenterScreen" WindowStyle="None"
         Background="Transparent" AllowsTransparency="True"
         ResizeMode="NoResize" WindowState="Normal">
@@ -18,7 +18,7 @@
 
             <Grid Grid.Column="1">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="40"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 <StackPanel Grid.Row="0" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,10,0" Height="30" Orientation="Horizontal" FlowDirection="RightToLeft">
@@ -26,7 +26,7 @@
                     <Button x:Name="btnMinimize" Style="{DynamicResource IconButtonsStyle}" Content="{DynamicResource minimize}" Click="btnMinimize_Click"/>
 
                 </StackPanel>
-                <Border Grid.Row="1" Margin="10">
+                <Border Grid.Row="1">
                     <Frame x:Name="PagesNavigation" NavigationUIVisibility="Hidden"/>
                 </Border>
             </Grid>
