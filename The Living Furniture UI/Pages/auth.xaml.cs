@@ -12,29 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using The_Living_Furniture_UI.Pages;
 
-namespace The_Living_Furniture_UI
+namespace The_Living_Furniture_UI.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для auth.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class auth : Page
     {
-        public MainWindow()
+        public auth()
         {
             InitializeComponent();
-           
-        }
-
-        private void btnMinimize_Click(object sender, RoutedEventArgs e)
-        {
-            WindowState = WindowState.Minimized;
-        }
-
-        private void btnClose_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
         }
     }
 }
