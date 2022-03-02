@@ -79,11 +79,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\userPages\registration.xaml">
+    <Page Include="Pages\others\Admin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Styles\MainStyles.xaml">
+    <Page Include="Pages\others\User.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -96,8 +96,11 @@
     <Compile Include="Pages\auth.xaml.cs">
       <DependentUpon>auth.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\userPages\registration.xaml.cs">
-      <DependentUpon>registration.xaml</DependentUpon>
+    <Compile Include="Pages\others\Admin.xaml.cs">
+      <DependentUpon>Admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\others\User.xaml.cs">
+      <DependentUpon>User.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -134,7 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\adminPages\" />
-    <Folder Include="Pages\othersPage\" />
+    <Folder Include="Pages\userPages\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Images\signIn.png" />

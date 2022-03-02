@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace The_Living_Furniture_UI.Pages.userPages
+namespace The_Living_Furniture_UI.Pages.others
 {
     /// <summary>
-    /// Логика взаимодействия для registration.xaml
+    /// Логика взаимодействия для User.xaml
     /// </summary>
-    public partial class registration : Page
+    public partial class User : Window
     {
-        public registration()
+        public User()
         {
             InitializeComponent();
         }

@@ -10,18 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using The_Living_Furniture_UI.Pages;
 
-namespace The_Living_Furniture_UI.Pages
+namespace The_Living_Furniture_UI.Pages.others
 {
     /// <summary>
-    /// Логика взаимодействия для auth.xaml
+    /// Логика взаимодействия для Admin.xaml
     /// </summary>
-    public partial class auth : Page
+    public partial class Admin : Window
     {
-        public auth()
+        public Admin()
         {
             InitializeComponent();
         }
