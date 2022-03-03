@@ -1,0 +1,45 @@
+﻿<Page x:Class="The_Living_Furniture_UI.Pages.userPages.Category"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:The_Living_Furniture_UI.Pages.userPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Category">
+    <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="10">
+                <TextBlock Text="The Living"/>
+                <TextBox Text="Abobus" Width="500" Height="40" Margin="35,0,0,0"/>
+                <ComboBox Text="Category" Margin="25,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="2" Orientation="Horizontal" Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Image Margin="10" Source="C:\Users\claud\OneDrive\Документы\The_Living_Furniture_UI\The Living Furniture UI\Assets\Images\category.png" Width="370" Height="200"/>
+                <StackPanel Orientation="Vertical" Margin="30,0,0,0">
+                    <Label Content="dsdsd"/>
+                    <Label Content="dsdsd"/>
+                    <Button Content="dsdsds"/>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="15">
+                <Image Source="C:\Users\claud\OneDrive\Документы\The_Living_Furniture_UI\The Living Furniture UI\Assets\Images\Furniture\Cabinet.png" Margin="15,0,0,0"/>
+                <Image Source="C:\Users\claud\OneDrive\Документы\The_Living_Furniture_UI\The Living Furniture UI\Assets\Images\Furniture\Cabinet2.png" Margin="25,0,0,0"/>
+                <Image Source="C:\Users\claud\OneDrive\Документы\The_Living_Furniture_UI\The Living Furniture UI\Assets\Images\Furniture\Lamp.png" Margin="25,0,0,0"/>
+                <Image Source="C:\Users\claud\OneDrive\Документы\The_Living_Furniture_UI\The Living Furniture UI\Assets\Images\Furniture\Table.png" Margin="25,0,0,0"/>
+            </StackPanel>
+            
+        </Grid>
+    </Border>
+</Page>

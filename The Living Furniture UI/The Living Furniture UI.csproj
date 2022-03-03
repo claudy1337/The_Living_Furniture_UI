@@ -87,6 +87,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\userPages\Category.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\userPages\Profile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Themes\LightThemes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -101,6 +109,12 @@
     </Compile>
     <Compile Include="Pages\others\User.xaml.cs">
       <DependentUpon>User.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\userPages\Category.xaml.cs">
+      <DependentUpon>Category.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\userPages\Profile.xaml.cs">
+      <DependentUpon>Profile.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -137,10 +151,27 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\adminPages\" />
-    <Folder Include="Pages\userPages\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Images\signIn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\category.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Furniture\Chair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Furniture\Cabinet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Furniture\Table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Furniture\Lamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Furniture\Cabinet2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

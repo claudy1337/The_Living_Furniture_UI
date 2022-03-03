@@ -10,23 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace The_Living_Furniture_UI.Pages.others
+namespace The_Living_Furniture_UI.Pages.userPages
 {
     /// <summary>
-    /// Логика взаимодействия для User.xaml
+    /// Логика взаимодействия для Profile.xaml
     /// </summary>
-    public partial class User : Window
+    public partial class Profile : Page
     {
-        public User()
+        public Profile()
         {
             InitializeComponent();
-        }
-
-        private void rdHome_Click(object sender, RoutedEventArgs e)
-        {
-            PagesNavigation.Navigate(new System.Uri("Pages/userPages/Category.xaml", UriKind.RelativeOrAbsolute));
         }
     }
 }

@@ -54,7 +54,7 @@
                     </ToggleButton>
 
                     <StackPanel Grid.Row="3">
-                        <RadioButton x:Name="rdHome" IsChecked="True" Content="Home" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource home}"/>
+                        <RadioButton x:Name="rdHome" IsChecked="True" Content="Home" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource home}" Click="rdHome_Click"/>
                         <RadioButton x:Name="rdSounds" Content="Sounds" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource headphones}" Margin="0 5 0 5" />
                         <RadioButton x:Name="rdNotes" Content="Notes" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource notes}"/>
                         <RadioButton x:Name="rdPayment" Content="Payment" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource payment}" />
