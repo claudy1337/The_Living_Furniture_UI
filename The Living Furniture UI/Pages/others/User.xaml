@@ -59,7 +59,6 @@
                         <RadioButton x:Name="rdNotes" Content="Notes" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource headphones}" Click="rdNotes_Click"/>
                         <RadioButton x:Name="rdPayment" Content="Payment" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource payment}"  Click="rdPayment_Click"/>
                         <RadioButton x:Name="rdPayment1" Content="Payment" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource payment}"  Click="rdPayment1_Click"/>
-                        <RadioButton x:Name="rdPayment12" Content="Payment" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource payment}" />
 
                     </StackPanel>
 

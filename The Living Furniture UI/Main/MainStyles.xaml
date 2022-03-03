@@ -109,9 +109,8 @@
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter TargetName="txtName" Property="Foreground" Value="{DynamicResource PrimaryBlueColor}"/>
                             <Setter TargetName="Icon" Property="Fill" Value="{DynamicResource PrimaryBlueColor}"/>
-                            <!-- Optional 
-                            <Setter TargetName="Indicator" Property="Fill" Value="red"/>
-                            <Setter TargetName="Indicator" Property="Height" Value="20"/>-->
+                          
+                            
                         </Trigger>
                         <Trigger Property="IsChecked" Value="True">
                             <Setter TargetName="Icon" Property="Fill" Value="{DynamicResource PrimaryBlueColor}"/>
