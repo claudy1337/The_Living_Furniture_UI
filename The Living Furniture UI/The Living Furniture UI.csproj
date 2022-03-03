@@ -91,6 +91,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\userPages\FurnitureList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\userPages\Profile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -112,6 +116,9 @@
     </Compile>
     <Compile Include="Pages\userPages\Category.xaml.cs">
       <DependentUpon>Category.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\userPages\FurnitureList.xaml.cs">
+      <DependentUpon>FurnitureList.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\userPages\Profile.xaml.cs">
       <DependentUpon>Profile.xaml</DependentUpon>
@@ -172,6 +179,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Images\Furniture\Cabinet2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\FurnitureList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Frame 15.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

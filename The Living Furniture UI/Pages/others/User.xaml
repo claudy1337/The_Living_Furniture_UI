@@ -55,10 +55,10 @@
 
                     <StackPanel Grid.Row="3">
                         <RadioButton x:Name="rdHome" IsChecked="True" Content="Home" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource home}" Click="rdHome_Click"/>
-                        <RadioButton x:Name="rdSounds" Content="Sounds" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource headphones}" Margin="0 5 0 5" />
-                        <RadioButton x:Name="rdNotes" Content="Notes" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource notes}"/>
-                        <RadioButton x:Name="rdPayment" Content="Payment" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource payment}" />
-                        <RadioButton x:Name="rdPayment1" Content="Payment" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource payment}" />
+                        <RadioButton x:Name="rdSounds" Content="Sounds" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource headphones}" Margin="0 5 0 5" Click="rdSounds_Click" />
+                        <RadioButton x:Name="rdNotes" Content="Notes" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource headphones}" Click="rdNotes_Click"/>
+                        <RadioButton x:Name="rdPayment" Content="Payment" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource payment}"  Click="rdPayment_Click"/>
+                        <RadioButton x:Name="rdPayment1" Content="Payment" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource payment}"  Click="rdPayment1_Click"/>
                         <RadioButton x:Name="rdPayment12" Content="Payment" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource payment}" />
 
                     </StackPanel>
@@ -85,13 +85,26 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
 
-                <!-- Start: Button Close | Restore | Minimize -->
+                <!-- Start: Button Close | Restore-->
                 <StackPanel Grid.Row="0" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,10,0" Height="30" Orientation="Horizontal" FlowDirection="RightToLeft">
                     <Button x:Name="btnClose" Style="{StaticResource IconButtonsStyle}" Content="{DynamicResource close}"  Tag="IsCloseButton"/>
                     <Button x:Name="btnMinimize" Style="{DynamicResource IconButtonsStyle}" Content="{DynamicResource minimize}" />
                 </StackPanel>
-                <!-- End: Button Close | Restore | Minimize -->
+                <!-- End: Button Close | Restore-->
+                
+                <!--Start: Search Bar-->
+                <StackPanel Grid.Row="0" Grid.Column="4" HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" FlowDirection="LeftToRight">
+                    <TextBlock Margin="10" Text="The Living" FontFamily="Poppins Medium" FontSize="20"/>
+                    
+                    <Border Margin="20,0,0,0" BorderThickness="1" BorderBrush="Black" CornerRadius="8" Padding="2">
+                        <TextBox Text="Aboba" FontFamily="Poppins Light" FontSize="15" Width="190" BorderThickness="0" Background="#f3f3f3"/>
+                        
+                    </Border>
 
+                    <ComboBox  Margin="20,0,0,0" Width="170" Height="35" Text="dsdsd"/>
+                </StackPanel>
+                <!--End: Search Bar-->
+                
                 <Border Grid.Row="1" Margin="10">
                     <Frame x:Name="PagesNavigation" NavigationUIVisibility="Hidden">
                         <!-- Page Content -->

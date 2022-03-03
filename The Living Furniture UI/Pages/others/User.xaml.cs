@@ -28,5 +28,25 @@ namespace The_Living_Furniture_UI.Pages.others
         {
             PagesNavigation.Navigate(new System.Uri("Pages/userPages/Category.xaml", UriKind.RelativeOrAbsolute));
         }
+
+        private void rdSounds_Click(object sender, RoutedEventArgs e)
+        {
+            PagesNavigation.Navigate(new System.Uri("Pages/userPages/FurnitureList.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void rdNotes_Click(object sender, RoutedEventArgs e)
+        {
+            PagesNavigation.Navigate(new System.Uri("Pages/userPages/FurnitureList.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void rdPayment_Click(object sender, RoutedEventArgs e)
+        {
+            PagesNavigation.Navigate(new System.Uri("Pages/userPages/Category.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void rdPayment1_Click(object sender, RoutedEventArgs e)
+        {
+            PagesNavigation.Navigate(new System.Uri("Pages/userPages/FurnitureList.xaml", UriKind.RelativeOrAbsolute));
+        }
     }
 }
