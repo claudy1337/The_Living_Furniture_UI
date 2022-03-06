@@ -1,0 +1,70 @@
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\The Living Furniture UI.exe.config
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\The Living Furniture UI.exe
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\The Living Furniture UI.pdb
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\DnsClient.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\MongoDB.Bson.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\MongoDB.Driver.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\SharpCompress.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\System.Buffers.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\System.Memory.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\DnsClient.xml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\MongoDB.Bson.xml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\MongoDB.Driver.xml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\System.Buffers.xml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\System.Memory.xml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\The Living Furniture UI.csproj.AssemblyReference.cache
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\The Living Furniture UI.csproj.SuggestedBindingRedirects.cache
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\MainWindow.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\auth.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\others\Admin.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\others\User.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\userPages\Category.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\userPages\Profile.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\App.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\The Living Furniture UI_Content.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\The Living Furniture UI_MarkupCompile.cache
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\The Living Furniture UI_MarkupCompile.lref
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\App.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Assets\Icons\Icons.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\MainWindow.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Main\MainStyles.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\auth.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\others\Admin.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\others\User.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\userPages\Category.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\userPages\Profile.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Themes\LightThemes.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\The Living Furniture UI.g.resources
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\The_Living_Furniture_UI.Properties.Resources.resources
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\The Living Furniture UI.csproj.GenerateResource.cache
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\The Living Furniture UI.csproj.CoreCompileInputs.cache
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\The Living Furniture UI.csproj.CopyComplete
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\The Living Furniture UI.exe
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\The Living Furniture UI.pdb
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\libzstd.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\snappy32.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\snappy64.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\libsnappy64.so
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\libzstd.so
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\libsnappy64.dylib
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\libzstd.dylib
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\bin\Debug\mongocrypt.dll
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\userPages\Request.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\userPages\Request.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\Product\ProductInfo.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\Product\ProductList.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\userPages\main.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Themes\PopupUserControl.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\Product\ProductInfo.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\Product\ProductList.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\userPages\main.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Themes\PopupUserControl.baml

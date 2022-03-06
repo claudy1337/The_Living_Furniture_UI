@@ -1,0 +1,122 @@
+﻿<Page x:Class="The_Living_Furniture_UI.Pages.userPages.Request"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:The_Living_Furniture_UI.Pages.userPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Request">
+
+    <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+
+            <StackPanel Grid.Column="0" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0">
+                <TextBlock Text="Request" FontSize="30" FontFamily="Ubuntu Medium"/>
+                <TextBlock FontSize="15" Margin="0,10,0,0" Text="It's not long before you embark on this journey!" FontFamily="Poppins Light"/>
+                
+                <TextBlock Text="Name" FontSize="20" Margin="0,10,0,0" FontFamily="Ubuntu Medium"/>
+                <TextBox Text="Name"
+                     FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Left"
+                     FontFamily="Ubuntu Light">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="9"/>
+                            <Setter Property="Height" Value="40"/>
+                            <Setter Property="Width" Value="250"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+
+                <TextBlock Margin="0,10,0,0" FontSize="20" Text="Material" FontFamily="Ubuntu Medium"/>
+                <TextBox Text="Material"
+                     FontSize="15" HorizontalAlignment="Left"
+                     FontFamily="Ubuntu Light">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="9"/>
+                            <Setter Property="Height" Value="40"/>
+                            <Setter Property="Width" Value="250"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+
+                <TextBlock Margin="0,10,0,0" FontSize="20" Text="Size" FontFamily="Ubuntu Medium"/>
+                <TextBox Text="size"
+                     FontSize="15" HorizontalAlignment="Left"
+                     FontFamily="Ubuntu Light">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="9"/>
+                            <Setter Property="Height" Value="40"/>
+                            <Setter Property="Width" Value="250"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+
+                <TextBlock Margin="0,10,0,0" FontSize="20" Text="Number" FontFamily="Ubuntu Medium"/>
+                <TextBox Text="email@email.ru"
+                     FontSize="15" HorizontalAlignment="Left"
+                     FontFamily="Ubuntu Light">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="9"/>
+                            <Setter Property="Height" Value="40"/>
+                            <Setter Property="Width" Value="250"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+                <!--number-->
+                <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                    <CheckBox />
+                    <TextBlock Text="I've read and agree with Terms of Service and our Privacy Police" FontFamily="Ubuntu Light"/>
+                </StackPanel>
+
+                <Button Content="Sing in an account"
+                        Margin="0,10,10,0"
+                        Foreground="White"
+                        FontSize="19"
+                        FontWeight="Medium">
+
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="#388F72"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Setter Property="FontFamily" Value="Poppins Medium"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#3D7462"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Width="220" Height="45"
+                                    CornerRadius="13"
+                                    Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+
+                </Button>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Image Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\req.png"/>
+            </StackPanel>
+        </Grid>
+        
+    </Border>
+</Page>
