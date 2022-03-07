@@ -55,10 +55,10 @@
 
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="0" Margin="30">
-                <Image MouseLeftButtonDown="imgChair_MouseLeftButtonDown" x:Name="imgChair" Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\Furniture\Chair.png" Margin="-40,0,0,0"/>
-                <Image MouseLeftButtonDown="imgCabinet_MouseLeftButtonDown" x:Name="imgCabinet" Source="C:\Users\claud\OneDrive\Документы\The_Living_Furniture_UI\The Living Furniture UI\Assets\Images\Furniture\Cabinet2.png" Height="205" Margin="40,0,0,0" Width="158"/>
-                <Image MouseLeftButtonDown="imgLamp_MouseLeftButtonDown"  x:Name="imgLamp" Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\Furniture\Lamp.png" Margin="40,0,0,0"/>
-                <Image MouseLeftButtonDown="imgTable_MouseLeftButtonDown" x:Name="imgTable" Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\Furniture\Table.png" Height="185" Margin="40,0,-40,0"/>
+                <Image MouseLeftButtonDown="imgChair_MouseLeftButtonDown" x:Name="imgChair" Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\Furniture\Chair.png" />
+                <Image MouseLeftButtonDown="imgCabinet_MouseLeftButtonDown" x:Name="imgCabinet" Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\Furniture\Cabinet.png"/>
+                <Image MouseLeftButtonDown="imgLamp_MouseLeftButtonDown"  x:Name="imgLamp" Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\Furniture\Lamp.png" />
+                <Image MouseLeftButtonDown="imgTable_MouseLeftButtonDown" x:Name="imgTable" Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\Furniture\Table.png" />
             </StackPanel>
 
         </Grid>

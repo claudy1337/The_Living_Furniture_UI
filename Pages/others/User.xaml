@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:The_Living_Furniture_UI.Pages.others"
         mc:Ignorable="d"
-        Title="User" Height="550" Width="950"
+        Title="User" Height="590" Width="990"
          WindowStartupLocation="CenterScreen" WindowStyle="None"
         Background="Transparent" AllowsTransparency="True"
         ResizeMode="NoResize" WindowState="Normal">
@@ -59,7 +59,7 @@
                     <StackPanel Grid.Row="3">
                         <RadioButton x:Name="rdHome" IsChecked="True" Content="Home" Style="{DynamicResource MenuRadioButtonStyle}" Click="rdHome_Click"  Tag="{DynamicResource home}" />
                         <RadioButton x:Name="rdCategory" Content="Category" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource category}" Click="rdCategory_Click"/>
-                        <RadioButton x:Name="rdOrider" Content="Order" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource order}" Click="rdOrider_Click" />
+                        <RadioButton x:Name="rdOrider" Content="Order" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource supplier}" Click="rdOrider_Click" />
 
                         <RadioButton x:Name="rdBasket" Content="Basket" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource notes}"/>
 

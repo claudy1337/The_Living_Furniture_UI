@@ -17,9 +17,51 @@
 
             <Grid.RowDefinitions>
                 <RowDefinition/>
-                <RowDefinition/>
+                <RowDefinition Height="200"/>
             </Grid.RowDefinitions>
-            
-        </Grid> 
+
+            <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Image Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\account.png" Height="174" Width="695"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Row="0" Orientation="Vertical" HorizontalAlignment="Center">
+                        <TextBlock Text="Name" FontFamily="Ubuntu Medium"/>
+                        <TextBox Text="email@email.ru" HorizontalAlignment="Left">
+                            <TextBox.Resources>
+                                <Style TargetType="{x:Type Border}">
+                                    <Setter Property="CornerRadius" Value="9"/>
+                                    <Setter Property="Height" Value="30"/>
+                                    <Setter Property="Width" Value="150"/>
+                                </Style>
+                            </TextBox.Resources>
+                        </TextBox>
+
+                        <TextBlock Text="Name" FontFamily="Ubuntu Medium"/>
+                        <TextBox Text="email@email.ru" HorizontalAlignment="Left">
+                            <TextBox.Resources>
+                                <Style TargetType="{x:Type Border}">
+                                    <Setter Property="CornerRadius" Value="9"/>
+                                    <Setter Property="Height" Value="30"/>
+                                    <Setter Property="Width" Value="150"/>
+                                </Style>
+                            </TextBox.Resources>
+                        </TextBox>
+
+
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal">
+                        
+                    </StackPanel>
+
+                </Grid>
+            </StackPanel>
+        </Grid>
     </Border>
 </Page>
