@@ -15,11 +15,11 @@
             </Grid.ColumnDefinitions>
             
             <StackPanel Grid.Column="1">
-                <Image Source="C:\Users\claud\source\repos\The Living Furniture UI\The Living Furniture UI\Assets\Images\signIn.png"/>
+                <Image Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\signin.png"/>
             </StackPanel>
             <StackPanel Grid.ColumnSpan="2" VerticalAlignment="Center" Margin="17,0,17,0">
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
-                    <Image Width="70" Height="70" Source="/Image/tableSign.png" HorizontalAlignment="Left"/>
+                    <Image Width="70" Height="70" Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\sign.png" HorizontalAlignment="Left"/>
                 </StackPanel>
 
                 <Label Content="Sign In"
@@ -28,7 +28,7 @@
                        VerticalAlignment="Center"
                        Foreground="Black"
                        Margin="-6,0,0,0"
-                       FontFamily="Poppins Black"/>
+                       FontFamily="Ubuntu Medium"/>
 
                 <TextBlock Text="It's not long before you embark on this journey!"
                        Foreground="Black"

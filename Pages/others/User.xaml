@@ -57,14 +57,14 @@
                     </ToggleButton>
 
                     <StackPanel Grid.Row="3">
-                        <RadioButton x:Name="rdHome" IsChecked="True" Content="Home" Style="{DynamicResource MenuRadioButtonStyle}" MouseEnter="rdHome_MouseEnter" Click="rdHome_Click"  Tag="{DynamicResource home}" />
-                        <RadioButton x:Name="rdCategory" Content="Category" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource category}" MouseEnter="rdCategory_MouseEnter"/>
-                        <RadioButton x:Name="rdOrider" Content="Order" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource order}" />
+                        <RadioButton x:Name="rdHome" IsChecked="True" Content="Home" Style="{DynamicResource MenuRadioButtonStyle}" Click="rdHome_Click"  Tag="{DynamicResource home}" />
+                        <RadioButton x:Name="rdCategory" Content="Category" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource category}" Click="rdCategory_Click"/>
+                        <RadioButton x:Name="rdOrider" Content="Order" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource order}" Click="rdOrider_Click" />
 
                         <RadioButton x:Name="rdBasket" Content="Basket" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource notes}"/>
 
                         <RadioButton x:Name="rdRequest" Content="Request" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource request}" Click="rdRequest_Click"/>
-                        <RadioButton x:Name="rdAccount" Content="Account" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource account}" />
+                        <RadioButton x:Name="rdAccount" Content="Account" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource account}" Click="rdAccount_Click"/>
 
                         
                         

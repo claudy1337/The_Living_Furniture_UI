@@ -28,24 +28,28 @@ namespace The_Living_Furniture_UI.Pages.others
             InitializeComponent();
         }
 
-        private void rdCategory_MouseEnter(object sender, MouseEventArgs e)
-        {
-            PagesNavigation.Navigate(new System.Uri("Pages/userPages/Category.xaml", UriKind.RelativeOrAbsolute));
-        }
-
         private void rdRequest_Click(object sender, RoutedEventArgs e)
         {
             PagesNavigation.Navigate(new System.Uri("Pages/userPages/Request.xaml", UriKind.RelativeOrAbsolute));
         }
-
-        private void rdHome_MouseEnter(object sender, MouseEventArgs e)
-        {
-            PagesNavigation.Navigate(new System.Uri("Pages/userPages/Request.xaml", UriKind.RelativeOrAbsolute));
-        }
-
         private void rdHome_Click(object sender, RoutedEventArgs e)
         {
             PagesNavigation.Navigate(new System.Uri("Pages/userPages/main.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void rdCategory_Click(object sender, RoutedEventArgs e)
+        {
+            PagesNavigation.Navigate(new System.Uri("Pages/userPages/Category.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void rdOrider_Click(object sender, RoutedEventArgs e)
+        {
+            //PagesNavigation.Navigate(new System.Uri("Pages/userPages/Profile.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void rdAccount_Click(object sender, RoutedEventArgs e)
+        {
+            PagesNavigation.Navigate(new System.Uri("Pages/userPages/Profile.xaml", UriKind.RelativeOrAbsolute));
         }
     }
 }

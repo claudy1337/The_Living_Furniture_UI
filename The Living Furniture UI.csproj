@@ -284,9 +284,6 @@
     <Folder Include="Pages\adminPages\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Images\signIn.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Assets\Images\category.png" />
   </ItemGroup>
   <ItemGroup>
@@ -304,6 +301,10 @@
     <Resource Include="Assets\Images\req.png" />
     <Resource Include="Assets\Images\Furniture\Chair.png" />
     <Resource Include="Assets\Images\Furniture\Table.png" />
+    <Resource Include="Assets\Images\mainC.png" />
+    <Resource Include="Assets\Images\MainL.png" />
+    <Resource Include="Assets\Images\sign.png" />
+    <Resource Include="Assets\Images\signin.png" />
     <Content Include="Core\Compression\Snappy\lib\win\snappy32.dll" />
     <Content Include="Core\Compression\Snappy\lib\win\snappy64.dll" />
     <Content Include="Core\Compression\Zstandard\lib\win\libzstd.dll" />
