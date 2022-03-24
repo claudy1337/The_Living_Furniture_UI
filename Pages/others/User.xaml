@@ -10,8 +10,8 @@
         Background="Transparent" AllowsTransparency="True"
         ResizeMode="NoResize" WindowState="Normal">
 
-    
-    
+
+
     <Border CornerRadius="8" Background="{DynamicResource PrimaryBackgroundColor}">
         <Grid>
             <Grid.ColumnDefinitions>
@@ -58,16 +58,16 @@
 
                     <StackPanel Grid.Row="3">
                         <RadioButton x:Name="rdHome" IsChecked="True" Content="Home" Style="{DynamicResource MenuRadioButtonStyle}" Click="rdHome_Click"  Tag="{DynamicResource home}" />
-                        <RadioButton x:Name="rdCategory" Content="Category" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource category}" Click="rdCategory_Click"/>
+                        <RadioButton x:Name="rdCategory" Content="Category" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource category}" Click="rdCategory_Click" Checked="rdCategory_Checked"/>
                         <RadioButton x:Name="rdOrider" Content="Order" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource supplier}" Click="rdOrider_Click" />
 
-                        <RadioButton x:Name="rdBasket" Content="Basket" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource notes}"/>
+                        <RadioButton x:Name="rdBasket" Content="Basket" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource notes}" Click="rdBasket_Click"/>
 
                         <RadioButton x:Name="rdRequest" Content="Request" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource request}" Click="rdRequest_Click"/>
                         <RadioButton x:Name="rdAccount" Content="Account" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource account}" Click="rdAccount_Click"/>
 
-                        
-                        
+
+
 
                     </StackPanel>
 
@@ -101,31 +101,36 @@
                 <!-- End: Button Close | Restore-->
 
                 <!--Start: Search Bar-->
-                <StackPanel Grid.Row="0" Grid.Column="4" HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" FlowDirection="LeftToRight">
-                    <TextBlock  Text="NamePage" FontFamily="Ubuntu Medium" FontSize="25"/>
-
-                    <TextBox Text="email@email.ru"
-                     FontSize="15" HorizontalAlignment="Left"
-                     FontFamily="Ubuntu Light">
+                <StackPanel MouseDown="StackPanel_MouseDown" Grid.Column="0" Grid.Row="0" Margin="0,0,100,0" HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Horizontal">
+                   
+                    <TextBox Text="Search"
+                    BorderBrush="Gray"
+                    Background="White"
+                    FontFamily="Ubuntu light"
+                    Padding="5"
+                    TextAlignment="Left"
+                     FontSize="15" HorizontalAlignment="Left">
                         <TextBox.Resources>
                             <Style TargetType="{x:Type Border}">
                                 <Setter Property="CornerRadius" Value="9"/>
                                 <Setter Property="Height" Value="30"/>
-                                <Setter Property="Width" Value="250"/>
+                                <Setter Property="Width" Value="300"/>
                             </Style>
                         </TextBox.Resources>
                     </TextBox>
+                    <Image Source="/Assets/Images/search.png" Height="20" Width="20" Margin="10,0,0,0" />
 
-                    <Image Margin="5,10,0,0" Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\search.png" Width="20" Height="20"/>
-
-                    
                 </StackPanel>
                 <!--End: Search Bar-->
 
+                
+                    <Image Source="/Assets/Images/category.png" Height="515" Grid.Row="1" Margin="40"/>
                 <Border Grid.Row="1" Margin="10">
-                    <Frame x:Name="PagesNavigation" NavigationUIVisibility="Hidden">
-                        <!-- Page Content -->
+
+                    <Frame x:Name="PagesNavigation" NavigationUIVisibility="Hidden" Margin="0,-10,0,0">
+
                     </Frame>
+
                 </Border>
             </Grid>
             <!-- Start: GridColumn Rigth -->

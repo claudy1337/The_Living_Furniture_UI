@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:The_Living_Furniture_UI.Pages.userPages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="450" d:DesignWidth="850"
       Title="Category">
     <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}">
         <Grid>
@@ -17,15 +17,39 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="19" HorizontalAlignment="Center">
+                <Rectangle Width="190" Height="200">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="/Assets/Images/Furniture/Collection/Table.png"/>
+                    </Rectangle.Fill>
+                </Rectangle>
 
 
+                <Rectangle Width="190" Height="200" Margin="15,0,0,0">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="/Assets/Images/Furniture/Collection/Lamp.png"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle Width="190" Height="200">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="/Assets/Images/Furniture/Collection/Chair.png"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle Width="190" Height="200" Margin="15,0,0,0">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="/Assets/Images/Furniture/Collection/Cabinet.png"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+            </StackPanel>
             <StackPanel Grid.Column="0" Orientation="Horizontal" Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Center">
-                <Image Margin="10" Source="C:\Users\claud\OneDrive\Документы\The_Living_Furniture_UI\The Living Furniture UI\Assets\Images\category.png" Width="380"/>
+                <Image Margin="10" Source="/Assets/Images/category.png" Width="380"/>
                 <StackPanel Orientation="Vertical" Margin="10,10,0,0">
-                    <Label Content="Simple Bed for You" FontFamily="Ubuntu Medium" FontSize="25"/>
-                    <Label Content="Weekend" FontFamily="Ubuntu Medium" FontSize="25"/>
-                    <Label Content="Lorem ipsum dolor sit amet, consectetur adipiscing elit" FontFamily="Ubuntu Light" FontSize="15"/>
-                    <Button Content="dsdsds"  FontFamily="Ubuntu Medium" HorizontalAlignment="Left" >
+                    <TextBlock TextWrapping="Wrap" Text="Simple Bed for You Weekend" FontFamily="Ubuntu Medium" FontSize="25" Width="330"/>
+                    <TextBlock TextWrapping="WrapWithOverflow" Text="Below we are consuming IMongoBookDBContext using Constructor injection directly in the MainBookWindow. But one can additional layer if needed" Margin="0,15,0,0" FontFamily="Ubuntu Light" FontSize="15" Width="332"/>
+                    <Button Content="dsdsds"  FontFamily="Ubuntu Medium" HorizontalAlignment="Left" Margin="0,10,0,0">
                         <Button.Style>
                             <Style TargetType="Button">
                                 <Setter Property="Background" Value="#F6B50E"/>
@@ -55,10 +79,10 @@
 
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="0" Margin="30">
-                <Image MouseLeftButtonDown="imgChair_MouseLeftButtonDown" x:Name="imgChair" Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\Furniture\Chair.png" />
-                <Image MouseLeftButtonDown="imgCabinet_MouseLeftButtonDown" x:Name="imgCabinet" Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\Furniture\Cabinet.png"/>
-                <Image MouseLeftButtonDown="imgLamp_MouseLeftButtonDown"  x:Name="imgLamp" Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\Furniture\Lamp.png" />
-                <Image MouseLeftButtonDown="imgTable_MouseLeftButtonDown" x:Name="imgTable" Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\Furniture\Table.png" />
+                <Image MouseLeftButtonDown="imgChair_MouseLeftButtonDown" x:Name="imgChair" Source="/Assets/Images/Furniture/Chair.png" />
+                <Image MouseLeftButtonDown="imgCabinet_MouseLeftButtonDown" x:Name="imgCabinet" Source="/Assets/Images/Furniture/Cabinet.png"  />
+                <Image MouseLeftButtonDown="imgLamp_MouseLeftButtonDown"  x:Name="imgLamp" Source="/Assets/Images/Furniture/Lamp.png" />
+                <Image MouseLeftButtonDown="imgTable_MouseLeftButtonDown" x:Name="imgTable" Source="/Assets/Images/Furniture/Table.png" />
             </StackPanel>
 
         </Grid>

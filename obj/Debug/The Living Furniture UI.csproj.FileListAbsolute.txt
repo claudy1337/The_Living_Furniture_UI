@@ -68,3 +68,12 @@ C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\T
 C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\Product\ProductList.baml
 C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\userPages\main.baml
 C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Themes\PopupUserControl.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\userPages\Registration.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\userPages\Registration.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Assets\items\FurnitureItem.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\userPages\Baket.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Assets\items\FurnitureItem.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\userPages\Baket.baml
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\adminPages\UserControl.g.cs
+C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\obj\Debug\Pages\adminPages\UserControl.baml

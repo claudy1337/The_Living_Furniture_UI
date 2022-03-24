@@ -51,5 +51,23 @@ namespace The_Living_Furniture_UI.Pages.others
         {
             PagesNavigation.Navigate(new System.Uri("Pages/userPages/Profile.xaml", UriKind.RelativeOrAbsolute));
         }
+
+        private void StackPanel_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == System.Windows.Input.MouseButton.Left)
+            {
+                this.DragMove();
+            }
+        }
+
+        private void rdBasket_Click(object sender, RoutedEventArgs e)
+        {
+            PagesNavigation.Navigate(new System.Uri("Pages/userPages/Baket.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void rdCategory_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

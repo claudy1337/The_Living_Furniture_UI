@@ -11,41 +11,45 @@
     <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}">
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="270"/>
                 <ColumnDefinition/>
-                <ColumnDefinition Width="40"/>
             </Grid.ColumnDefinitions>
 
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Grid.Column="0" VerticalAlignment="Bottom" Margin="20,0,0,60">
 
                 <Label Content="Furniture" FontFamily="Ubuntu Medium" FontSize="30"/>
-                <TextBlock Text="Furniture Kualitas tinggi
-Pilihan untuk menciptakan rumah yang nyaman" FontFamily="Ubuntu Light"/>
+                <TextBlock TextWrapping="Wrap" Margin="5" Text="Furniture Kualitas tinggi
+Pilihan untuk menciptakan rumah yang nyaman" FontFamily="Ubuntu Light" FontSize="15" Width="217"/>
 
                 <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                     <TextBlock Text="Consultation" FontFamily="Ubuntu Medium" HorizontalAlignment="Center" FontSize="20" Margin="0,10,0,0"/>
                     <TextBox Text="Material"
+                     VerticalAlignment="Center"
+                     Padding="10"
+                     Background="#E4E3E3"
                      Margin="0,20,0,0"
                      FontSize="15" HorizontalAlignment="Left"
-                     FontFamily="Ubuntu Light">
+                     FontFamily="Ubuntu Medium">
                         <TextBox.Resources>
                             <Style TargetType="{x:Type Border}">
                                 <Setter Property="CornerRadius" Value="9"/>
                                 <Setter Property="Height" Value="40"/>
-                                <Setter Property="Width" Value="250"/>
+                                <Setter Property="Width" Value="200"/>
                             </Style>
                         </TextBox.Resources>
                     </TextBox>
 
                     <TextBox Text="Material"
+                     Background="#E4E3E3"
+                     FontFamily="Ubuntu Medium"
                      Margin="0,20,0,0"
                      FontSize="15" HorizontalAlignment="Left"
-                     FontFamily="Ubuntu Light">
+                     Padding="10">
                         <TextBox.Resources>
                             <Style TargetType="{x:Type Border}">
                                 <Setter Property="CornerRadius" Value="9"/>
                                 <Setter Property="Height" Value="40"/>
-                                <Setter Property="Width" Value="250"/>
+                                <Setter Property="Width" Value="200"/>
                             </Style>
                         </TextBox.Resources>
                     </TextBox>
@@ -80,7 +84,6 @@ Pilihan untuk menciptakan rumah yang nyaman" FontFamily="Ubuntu Light"/>
                                     </Border>
                                 </ControlTemplate>
                             </Button.Template>
-
                         </Button>
                     </StackPanel>
                 </StackPanel>
@@ -88,20 +91,29 @@ Pilihan untuk menciptakan rumah yang nyaman" FontFamily="Ubuntu Light"/>
 
 
             <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <Image Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\MainL.png" Width="200"/>
-                <Image Source="C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\Assets\Images\MainL.png" Width="200"/>
+                <StackPanel>
+                    <Image Source="/Assets/Images/mainC.png" Height="321" Width="242"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,10,0,0" HorizontalAlignment="Center">
+                        <Ellipse Fill="#EB8F4C" Height="30" Width="30"/>
+                        <Ellipse Fill="#B49298" Height="30" Width="30" Margin="10,0,0,0"/>
+                        <Ellipse Fill="#4B7A90" Height="30" Width="30" Margin="10,0,0,0"/>
+                        <Ellipse Fill="#CC533E" Height="30" Width="30" Margin="10,0,0,0"/>
+                    </StackPanel>
+                </StackPanel>
 
 
+                <StackPanel>
+                   
+                    <Image Margin="40,50,0,-20" Source="/Assets/Images/MainL.png" Height="314" Width="237"/>
+                    <StackPanel Orientation="Horizontal" Margin="55,25,0,0" HorizontalAlignment="Center">
+                        <Ellipse Fill="#4B7A90" Height="30" Width="30"/>
+                        <Ellipse Fill="#CC533E" Height="30" Width="30" Margin="10,0,0,0"/>
+                    </StackPanel>
+                </StackPanel>
 
             </StackPanel>
 
-            <StackPanel Grid.Column="2" Orientation="Vertical">
-                <Ellipse Fill="#EB8F4C" Height="40" Width="40"/>
-                <Ellipse Fill="#B49298" Height="40" Width="40"/>
-                <Ellipse Fill="#D6CCC4" Height="40" Width="40"/>
-                <Ellipse Fill="#4B7A90" Height="40" Width="40"/>
-                <Ellipse Fill="#CC533E" Height="40" Width="40"/>
-            </StackPanel>
+
 
         </Grid>
     </Border>

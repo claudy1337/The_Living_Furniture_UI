@@ -19,81 +19,85 @@
             </Grid.RowDefinitions>
 
 
-            <StackPanel Grid.Column="0" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0">
+            <StackPanel Grid.Column="0" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0">
                 <TextBlock Text="Request" FontSize="30" FontFamily="Ubuntu Medium"/>
-                <TextBlock FontSize="15" Margin="0,10,0,0" Text="It's not long before you embark on this journey!" FontFamily="Poppins Light"/>
+                <TextBlock TextWrapping="WrapWithOverflow" FontSize="15" Margin="0,5,0,0" Text="It's not long before you embark on this journey!" FontFamily="Poppins Light" Width="325"/>
                 
-                <TextBlock Text="Name" FontSize="20" Margin="0,10,0,0" FontFamily="Ubuntu Medium"/>
+                <TextBlock Text="Name" FontSize="20" Margin="0,5,0,0" FontFamily="Ubuntu Medium"/>
                 <TextBox Text="Name"
-                     FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Left"
+                     
+                     FontSize="25" Padding="5" VerticalAlignment="Center" HorizontalAlignment="Left"
                      FontFamily="Ubuntu Light">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="9"/>
                             <Setter Property="Height" Value="40"/>
-                            <Setter Property="Width" Value="250"/>
+                            <Setter Property="Width" Value="270"/>
                         </Style>
                     </TextBox.Resources>
                 </TextBox>
 
-                <TextBlock Margin="0,10,0,0" FontSize="20" Text="Material" FontFamily="Ubuntu Medium"/>
+                <TextBlock Margin="0,5,0,0" FontSize="20" Text="Material" FontFamily="Ubuntu Medium"/>
                 <TextBox Text="Material"
-                     FontSize="15" HorizontalAlignment="Left"
+                     
+                     FontSize="25" Padding="5" HorizontalAlignment="Left"
                      FontFamily="Ubuntu Light">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="9"/>
                             <Setter Property="Height" Value="40"/>
-                            <Setter Property="Width" Value="250"/>
+                            <Setter Property="Width" Value="270"/>
                         </Style>
                     </TextBox.Resources>
                 </TextBox>
 
-                <TextBlock Margin="0,10,0,0" FontSize="20" Text="Size" FontFamily="Ubuntu Medium"/>
-                <TextBox Text="size"
-                     FontSize="15" HorizontalAlignment="Left"
+                <TextBlock Margin="0,5,0,0" FontSize="20" Text="Size" FontFamily="Ubuntu Medium"/>
+                <TextBox Text="Size"
+                     
+                     FontSize="25" Padding="5" HorizontalAlignment="Left"
                      FontFamily="Ubuntu Light">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="9"/>
                             <Setter Property="Height" Value="40"/>
-                            <Setter Property="Width" Value="250"/>
+                            <Setter Property="Width" Value="270"/>
                         </Style>
                     </TextBox.Resources>
                 </TextBox>
 
-                <TextBlock Margin="0,10,0,0" FontSize="20" Text="Number" FontFamily="Ubuntu Medium"/>
-                <TextBox Text="email@email.ru"
-                     FontSize="15" HorizontalAlignment="Left"
+                <TextBlock Margin="0,5,0,0" FontSize="20" Text="Number" FontFamily="Ubuntu Medium"/>
+                <TextBox Text="Phone"
+                     
+                     FontSize="25" Padding="5" HorizontalAlignment="Left"
                      FontFamily="Ubuntu Light">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="9"/>
                             <Setter Property="Height" Value="40"/>
-                            <Setter Property="Width" Value="250"/>
+                            <Setter Property="Width" Value="270"/>
                         </Style>
                     </TextBox.Resources>
                 </TextBox>
                 <!--number-->
                 <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
-                    <CheckBox />
-                    <TextBlock Text="I've read and agree with Terms of Service and our Privacy Police" FontFamily="Ubuntu Light"/>
+                    <CheckBox VerticalAlignment="Center"/>
+                    <TextBlock Margin="5,0,0,0" TextWrapping="WrapWithOverflow" Text="I've read and agree with Terms of Service and our Privacy Police" FontFamily="Ubuntu Light" Width="249"/>
                 </StackPanel>
 
                 <Button Content="Sing in an account"
-                        Margin="0,10,10,0"
+                        Margin="-45,5,10,0"
                         Foreground="White"
                         FontSize="19"
                         FontWeight="Medium">
 
                     <Button.Style>
                         <Style TargetType="Button">
-                            <Setter Property="Background" Value="#388F72"/>
+                            <Setter Property="Background" Value="#EB8F4C"/>
                             <Setter Property="Cursor" Value="Hand"/>
                             <Setter Property="FontFamily" Value="Poppins Medium"/>
                             <Style.Triggers>
                                 <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter Property="Background" Value="#3D7462"/>
+                                    <Setter Property="Background" Value="#E2A06F"/>
                                 </Trigger>
                             </Style.Triggers>
                         </Style>
@@ -102,7 +106,7 @@
 
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
-                            <Border Width="220" Height="45"
+                            <Border Width="270" Height="45"
                                     CornerRadius="13"
                                     Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>

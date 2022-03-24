@@ -131,13 +131,29 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Assets\items\FurnitureItem.xaml.cs">
+      <DependentUpon>FurnitureItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\adminPages\UserControl.xaml.cs">
+      <DependentUpon>UserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\userPages\Baket.xaml.cs">
+      <DependentUpon>Baket.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\userPages\main.xaml.cs">
       <DependentUpon>main.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\userPages\Registration.xaml.cs">
+      <DependentUpon>Registration.xaml</DependentUpon>
     </Compile>
     <Compile Include="Themes\PopupUserControl.xaml.cs">
       <DependentUpon>PopupUserControl.xaml</DependentUpon>
     </Compile>
     <Page Include="Assets\Icons\Icons.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\items\FurnitureItem.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -155,6 +171,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Main\MainStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\adminPages\UserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -178,6 +198,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\userPages\Baket.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\userPages\Category.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -187,6 +211,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\userPages\Profile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\userPages\Registration.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -265,6 +293,7 @@
     <Resource Include="Assets\fonts\LeagueSpartan\LeagueSpartan-Regular.ttf" />
     <Resource Include="Assets\fonts\LeagueSpartan\LeagueSpartan-SemiBold.ttf" />
     <Resource Include="Assets\fonts\LeagueSpartan\LeagueSpartan-Thin.ttf" />
+    <Resource Include="Assets\fonts\Druk\Druk Wide Medium.ttf" />
     <None Include="Core\Compression\Snappy\lib\linux\libsnappy64.so" />
     <None Include="Core\Compression\Snappy\lib\osx\libsnappy64.dylib" />
     <None Include="Core\Compression\Zstandard\lib\linux\libzstd.so" />
@@ -281,13 +310,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pages\adminPages\" />
+    <Folder Include="Assets\Images\Furniture\Chess\" />
+    <Folder Include="Assets\Images\Furniture\Lamp\" />
+    <Folder Include="Assets\Images\Furniture\Table\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Images\category.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Images\Furniture\Lamp.png" />
+    <Resource Include="Assets\Images\Furniture\Collection\Lamp.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Images\FurnitureList.png" />
@@ -296,14 +327,22 @@
     <Resource Include="Assets\Images\search.png" />
     <Resource Include="Assets\Images\user.png" />
     <Resource Include="Assets\Images\req.png" />
-    <Resource Include="Assets\Images\Furniture\Chair.png" />
-    <Resource Include="Assets\Images\Furniture\Table.png" />
+    <Resource Include="Assets\Images\Furniture\Collection\Chair.png" />
+    <Resource Include="Assets\Images\Furniture\Collection\Table.png" />
     <Resource Include="Assets\Images\mainC.png" />
     <Resource Include="Assets\Images\MainL.png" />
     <Resource Include="Assets\Images\sign.png" />
     <Resource Include="Assets\Images\signin.png" />
     <Resource Include="Assets\Images\account.png" />
-    <Resource Include="Assets\Images\Furniture\Cabinet.png" />
+    <Resource Include="Assets\Images\Furniture\Collection\Cabinet.png" />
+    <Resource Include="Assets\Images\signUp.png" />
+    <Resource Include="Assets\Images\Lock.png" />
+    <Resource Include="Assets\Images\Furniture\Cabinet\Cabinet %286%29.png" />
+    <Resource Include="Assets\Images\Furniture\Cabinet\Cabinet %281%29.png" />
+    <Resource Include="Assets\Images\Furniture\Cabinet\Cabinet %282%29.png" />
+    <Resource Include="Assets\Images\Furniture\Cabinet\Cabinet %283%29.png" />
+    <Resource Include="Assets\Images\Furniture\Cabinet\Cabinet %284%29.png" />
+    <Resource Include="Assets\Images\Furniture\Cabinet\Cabinet %285%29.png" />
     <Content Include="Core\Compression\Snappy\lib\win\snappy32.dll" />
     <Content Include="Core\Compression\Snappy\lib\win\snappy64.dll" />
     <Content Include="Core\Compression\Zstandard\lib\win\libzstd.dll" />

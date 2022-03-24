@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using The_Living_Furniture_UI.Pages.others;
+using The_Living_Furniture_UI.Pages.userPages;
 
 namespace The_Living_Furniture_UI.Pages
 {
@@ -24,9 +25,24 @@ namespace The_Living_Furniture_UI.Pages
         public auth()
         {
             InitializeComponent();
+            
+            
+        }
+        private void RegistrationPage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            NavigationService.Navigate(new Registration());
+        }
+
+        private void Bauth_Click(object sender, RoutedEventArgs e)
+        {
             User user = new User();
             user.Show();
             
+        }
+
+        private void TBforgotPassword_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+
         }
     }
 }

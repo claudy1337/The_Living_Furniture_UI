@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\claud\OneDrive\Рабочий стол\The_Living_Furniture_UI-master\The Living Furniture UI\App.xaml
-14-1563280975
+18598221270
 19-5761987
-16469531040
+201133974743
 1301711481248
-Assets\Icons\Icons.xaml;MainWindow.xaml;Main\MainStyles.xaml;Pages\auth.xaml;Pages\others\Admin.xaml;Pages\others\User.xaml;Pages\Product\ProductInfo.xaml;Pages\Product\ProductList.xaml;Pages\userPages\Category.xaml;Pages\userPages\main.xaml;Pages\userPages\Profile.xaml;Pages\userPages\Request.xaml;Themes\LightThemes.xaml;Themes\PopupUserControl.xaml;
+Assets\Icons\Icons.xaml;Assets\items\FurnitureItem.xaml;MainWindow.xaml;Main\MainStyles.xaml;Pages\adminPages\UserControl.xaml;Pages\auth.xaml;Pages\others\Admin.xaml;Pages\others\User.xaml;Pages\Product\ProductInfo.xaml;Pages\Product\ProductList.xaml;Pages\userPages\Baket.xaml;Pages\userPages\Category.xaml;Pages\userPages\main.xaml;Pages\userPages\Profile.xaml;Pages\userPages\Registration.xaml;Pages\userPages\Request.xaml;Themes\LightThemes.xaml;Themes\PopupUserControl.xaml;
 
 False
 

@@ -24,8 +24,10 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <StackPanel Grid.Column="0">
-                        
+                    <StackPanel Grid.Column="0" Orientation="Horizontal">
+                        <ListBox>
+                            
+                        </ListBox>
                     </StackPanel>
 
                     <StackPanel Grid.Column="1">
